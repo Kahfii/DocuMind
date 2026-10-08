@@ -1,0 +1,19 @@
+[project]
+name = "DocuMind"
+version = "0.1.0"
+description = "DocuMind Document Research Assistant: Aplikasi RAG  berbasis Streamlit dan Gemini  untuk mengekstrak wawasan, mengeksplorasi, dan mengoperasikan sitasi dari paper ilmiah secara otomatis"
+readme = "README.md"
+requires-python = ">=3.11, <3.14"
+dependencies = [
+    "chromadb",
+    "langchain",
+    "langchain-chroma>=1.1.0",
+    "langchain-classic>=1.0.8",
+    "langchain-community",
+    "langchain-google-genai",
+    "langchain-huggingface",
+    "pypdf",
+    "python-dotenv",
+    "sentence-transformers",
+    "streamlit",
+]
